@@ -1,0 +1,30 @@
+{
+  "name": "git-flow",
+  "version": "1.0.0",
+  "description": "git团队分支策略",
+  "main": "index01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenLWNew/git-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChenLWNew/git-flow/issues"
+  },
+  "homepage": "https://github.com/ChenLWNew/git-flow#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "husky": "^8.0.1"
+  }
+}
